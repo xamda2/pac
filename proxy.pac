@@ -40,7 +40,7 @@ function FindProxyForURL(url, host) {
         return "PROXY 5.9.40.99:80";
     }
     if (d(h, "wl.is") || d(h, "weblockapp.com") || n(h, "17.0.0.0", "255.0.0.0")) {
-        return PROXY_DIRECT;
+        return BLACK;
     }
     
     return PROXY_DIRECT;}
