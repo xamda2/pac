@@ -35,7 +35,7 @@ function FindProxyForURL(url, host) {
         return "PROXY 5.9.40.99:80";
     }
     if (n(h, "17.0.0.0", "255.0.0.0")) {
-        return PROXY_DIRECT;
+        return "DIRECT";
     }
     
     
