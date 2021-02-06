@@ -38,17 +38,17 @@ function FindProxyForURL(url, host) {
         return "DIRECT";
     }
     
-if (d(h, "graph.facebook.com") ||
-d(h, "0-24bpautomentes.hu") ||
-d(h, "00-gov.cn") ||
-d(h, "000.gaysexe.free.fr") ||
-d(h, "0007.name") ||
-d(h, "000free.us") ||
-d(h, "000tristanprod.free.fr") ||
-d(h, "0024aaaa.com") ||
-d(h, "003store.com") ||
-d(h, "zzxhx.com") ||
-d(h, "zzyonghao.com") ||
+if (d(h, "graph.facebook.com") || 
+d(h, "0-24bpautomentes.hu") || 
+d(h, "00-gov.cn") || 
+d(h, "000.gaysexe.free.fr") || 
+d(h, "0007.name") || 
+d(h, "000free.us") || 
+d(h, "000tristanprod.free.fr") || 
+d(h, "0024aaaa.com") || 
+d(h, "003store.com") || 
+d(h, "zzxhx.com") || 
+d(h, "zzyonghao.com") || 
 d(h, "zzz.clickbank.net")) {
         return "PROXY 127.0.0.1:8021";
     }
