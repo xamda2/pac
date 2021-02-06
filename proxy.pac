@@ -307,7 +307,5 @@ function FindProxyForURL(url, host) {
     if ((d(h, "yahoo.com"))) {
         return BLACK;
     }
-    if (d(h, "adtechus.com")) return "PROXY 216.58.209.78:80";
-    if (d(h, "fwmrm.net")) return "PROXY 216.58.209.78:80";
-    return PROXY_DIRECT;
+     
 }
