@@ -4,7 +4,7 @@ function FindProxyForURL(url, host) {
   var n = h.indexOf(".");
   if (n == -1) break;
   var h = h.substr(n+1);
-  if (h in BLOCKLIST) return "PROXY 127.0.0.1:8021";
+  if (h in BLOCKLIST) return "PROXY 0:0:0:0";
  }
  return "DIRECT";
 }
