@@ -38,7 +38,9 @@ function FindProxyForURL(url, host) {
         return "DIRECT";
     }
     
-    if (d(h, "graph.facebook.com") || d(h, "analytics.twitter.com")) {
+if (
+d(h, "graph.facebook.com") ||
+d(h, "analytics.twitter.com")) {
         return "PROXY 127.0.0.1:8021";
     }
     
