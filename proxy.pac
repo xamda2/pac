@@ -1,16 +1,3 @@
-function FindProxyForURL(url, host) {
- var DIRECT = "DIRECT";
- var BLACK = "PROXY 127.0.0.1:8021";
- var h = host.toLowerCase();
- while(1) {
-  var n = h.indexOf(".");
-  if (n == -1) break;
-  var h = h.substr(n+1);
-  if (h in BLOCKLIST) return BLACK;
- }
- return DIRECT;
-}
-
 var BLOCKLIST = {
 "graph.facebook.com":null,
 "analytics.twitter.com":null,
@@ -33984,3 +33971,15 @@ var BLOCKLIST = {
 "zzyonghao.com":null,
 "zzz.clickbank.net":null,
 };
+function FindProxyForURL(url, host) {
+ var DIRECT = "DIRECT";
+ var BLACK = "PROXY 127.0.0.1:8021";
+ var h = host.toLowerCase();
+ while(1) {
+  var n = h.indexOf(".");
+  if (n == -1) break;
+  var h = h.substr(n+1);
+  if (h in BLOCKLIST) return BLACK;
+ }
+ return DIRECT;
+}
