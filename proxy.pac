@@ -38,7 +38,8 @@ function FindProxyForURL(url, host) {
         return "DIRECT";
     }
     
-if (d(h, "graph.facebook.com") || 
+if 
+(d(h, "graph.facebook.com") || 
 d(h, "0-24bpautomentes.hu") || 
 d(h, "00-gov.cn") || 
 d(h, "000.gaysexe.free.fr") || 
