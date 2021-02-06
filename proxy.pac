@@ -39,8 +39,8 @@ function FindProxyForURL(url, host) {
      if (d(h, "NbxwZk.configtest.wl.is")) {
         return "PROXY 5.9.40.99:80";
     }
-    if (d(h, "wl.is") || d(h, "weblockapp.com") || n(h, "17.0.0.0", "255.0.0.0")) {
-        return BLACK;
+    if (d(h, "wl.is") || d(h, "yahoo.com") || n(h, "17.0.0.0", "255.0.0.0")) {
+        return "PROXY 127.0.0.1:8021";
     }
     
     return PROXY_DIRECT;}
