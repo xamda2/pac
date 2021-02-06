@@ -1,4 +1,6 @@
 var BLOCKLIST = {
+"graph.facebook.com":null,
+"analytics.twitter.com":null,
 "0-24bpautomentes.hu":null,
 "00-gov.cn":null,
 "000.gaysexe.free.fr":null,
