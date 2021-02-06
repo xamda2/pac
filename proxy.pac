@@ -4,13 +4,18 @@ function FindProxyForURL(url, host) {
   var n = h.indexOf(".");
   if (n == -1) break;
   var h = h.substr(n+1);
-  if (h in BLOCKLIST) return "PROXY 0:0:0:0";
+  if (h in BLOCKLIST) return "PROXY 127.0.0.1:8021";
+  if (h in WHITELIST) return "PROXY 216.58.209.78:80";
  }
  return "DIRECT";
 }
 
+var WHITELIST = {
+ "graph.facebook.com":null,
+}
+
+
 var BLOCKLIST = {
-"graph.facebook.com":null,
 "analytics.twitter.com":null,
 "0-24bpautomentes.hu":null,
 "00-gov.cn":null,
