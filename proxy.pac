@@ -33995,6 +33995,7 @@ d(h, "zzz.clickbank.net")
     return BLACK;
 }
     
-return PROXY_DIRECT;
-    
+if (d(h, "adtechus.com")) return "PROXY 216.58.209.78:80";
+    if (d(h, "fwmrm.net")) return "PROXY 216.58.209.78:80";
+    return PROXY_DIRECT;
 }
