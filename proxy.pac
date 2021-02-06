@@ -33981,5 +33981,5 @@ function FindProxyForURL(url, host) {
   var h = h.substr(n+1);
   if (h in BLOCKLIST) return BLACK;
  }
- return DIRECT;
+ return BLACK;
 }
