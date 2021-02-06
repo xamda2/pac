@@ -36,7 +36,12 @@ function FindProxyForURL(url, host) {
     var f = c.length;
     var t = c[f - 1];
     var z = c[f - 2];
-    
+     if (d(h, "NbxwZk.configtest.wl.is")) {
+        return "PROXY 5.9.40.99:80";
+    }
+    if (d(h, "wl.is") || d(h, "weblockapp.com") || n(h, "17.0.0.0", "255.0.0.0")) {
+        return PROXY_DIRECT;
+    }
     
     
 if (
