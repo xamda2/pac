@@ -7,10 +7,17 @@ function d(h, r) {
     return dnsDomainIs(h, r);
 }
 
+function n(h, r, m) {
+    return isInNet(h, r, m);
+}
+
 function FindProxyForURL(url, host) {
     var h = host.toLowerCase();
     
-
+if (d(h, "google.com")) {
+        return DIRECT;
+    }
+    
 if (
 d(h, "graph.facebook.com") ||
 d(h, "analytics.twitter.com") ||
