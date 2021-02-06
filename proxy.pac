@@ -3,6 +3,9 @@ var DIRECT = "DIRECT";
 var BLACK = "PROXY 127.0.0.1:8021";
 var WHITE = PROXY_DIRECT;
 
+function d(h, r) {
+    return dnsDomainIs(h, r);
+}
 
 function FindProxyForURL(url, host) {
     var h = host.toLowerCase();
