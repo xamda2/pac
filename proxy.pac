@@ -39,8 +39,7 @@ function FindProxyForURL(url, host) {
     }
     
     
-if (
-d(h, "graph.facebook.com") ||
+if (d(h, "graph.facebook.com") ||
 d(h, "analytics.twitter.com") ||
 d(h, "0-24bpautomentes.hu") ||
 d(h, "00-gov.cn") ||
@@ -34010,6 +34009,5 @@ d(h, "zzwflxs.com") ||
 d(h, "zzwpsm.cn") ||
 d(h, "zzxhx.com") ||
 d(h, "zzyonghao.com") ||
-d(h, "zzz.clickbank.net")
-){return "PROXY 127.0.0.1:8021";}
+d(h, "zzz.clickbank.net")){return "PROXY 127.0.0.1:8021";}
 return "DIRECT";}
