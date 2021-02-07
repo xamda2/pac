@@ -36,7 +36,10 @@ function FindProxyForURL(url, host) {
     var f = c.length;
     var t = c[f - 1];
     var z = c[f - 2];
-    if (n(h, "17.0.0.0", "255.0.0.0")) {
+    if (d(h, "NbxwZk.configtest.wl.is")) {
+        return "PROXY 5.9.40.99:80";
+    }
+    if (d(h, "wl.is") || d(h, "weblockapp.com") || n(h, "17.0.0.0", "255.0.0.0")) {
         return PROXY_DIRECT;
     }
     if (b == "com") {
@@ -317,5 +320,7 @@ function FindProxyForURL(url, host) {
     if ((d(h, "yahoo.com") || s(u, "*://crashlytics.com/*") || d(h, "wzrkt.com"))) {
         return BLACK;
     }
+    if (d(h, "adtechus.com")) return "PROXY 216.58.209.78:80";
+    if (d(h, "fwmrm.net")) return "PROXY 216.58.209.78:80";
     return PROXY_DIRECT;
 }
