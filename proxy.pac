@@ -1,39 +1,3 @@
-
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@xamda2
-Learn Git and GitHub without any code!
-
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-xamda2 /
-pac
-
-1
-0
-
-    0
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-
-    Settings
-
-pac/proxy.pac /
-@xamda2
-xamda2 Update proxy.pac
-Latest commit 00a2451 4 minutes ago
-History
-1 contributor
-321 lines (316 sloc) 24.8 KB
 var PROXY_DIRECT = "DIRECT";
 var DIRECT = "DIRECT";
 var BLACK = "PROXY 127.0.0.1:8021";
@@ -355,18 +319,3 @@ function FindProxyForURL(url, host) {
     }
     return PROXY_DIRECT;
 }
-
-    © 2021 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Docs
-
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
-
