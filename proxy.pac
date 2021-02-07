@@ -223,7 +223,6 @@ d(h, "1.yxzw.com.cn") ||
 d(h, "1.zhev.com.cn") ||
 d(h, "1.zhuangxiu567.com") ||
 d(h, "1.zuowenjun.com") ||
-d(h, "100.pncdn.cn") ||
 d(h, "10000hai.com") ||
 d(h, "10000verges.free.fr") ||
 d(h, "1000bannerx.free.fr") ||
