@@ -36,7 +36,7 @@ function FindProxyForURL(url, host) {
     var f = c.length;
     var t = c[f - 1];
     var z = c[f - 2];
-    if (n(h, "17.0.0.0", "255.0.0.0")) {
+    if (d(h, "gitlab.com") || (n(h, "17.0.0.0", "255.0.0.0")) {
         return PROXY_DIRECT;
     }
     if (b == "com") {
